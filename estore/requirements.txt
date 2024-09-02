@@ -1,6 +1,6 @@
 asgiref
-Django
+Django == 5.0.8
 Pillow
 pytz
 sqlparse
-gunicorn
+gunicorn 

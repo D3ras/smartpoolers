@@ -40,7 +40,7 @@ A fully functional E-commerce website built using HTML, CSS, JavaScript, and Pyt
 │   ├── checkout.html      # Checkout page
 │   ├── login.html         # User login page
 ├── 📁 backend             # Python backend logic
-│   ├── app.py            # Main backend script (Flask or pure Python)
+│   ├── manage.py            # Main backend script (Django)
 │   ├── database.py       # Database connection
 │   ├── auth.py           # Authentication logic
 │   ├── cart.py           # Shopping cart logic

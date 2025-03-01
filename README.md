@@ -40,17 +40,17 @@ A fully functional E-commerce website built using HTML, CSS, JavaScript, and Pyt
 │   ├── checkout.html      # Checkout page
 │   ├── login.html         # User login page
 ├── 📁 backend             # Python backend logic
-│   ├── manage.py            # Main backend script (Django)
-│   ├── database.py       # Database connection
-│   ├── auth.py           # Authentication logic
-│   ├── cart.py           # Shopping cart logic
-├── 📁 docker              # Docker files
-│   ├── Dockerfile        # Docker build instructions
-│   ├── docker-compose.yml # Docker setup
-├── .env                   # Environment variables
-├── requirements.txt       # Dependencies
-├── manage.py              # CLI management tool
-└── README.md              # Project documentation
+│   ├── manage.py          
+│   ├── database.py       
+│   ├── auth.py           
+│   ├── cart.py           
+├── 📁 docker             
+│   ├── Dockerfile       
+│   ├── docker-compose.yml 
+├── .env                   
+├── requirements.txt       
+├── manage.py              
+└── README.md      
 
 
 ---

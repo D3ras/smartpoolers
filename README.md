@@ -66,7 +66,9 @@ Git installed
 
 1️⃣ Clone the repository
 
+git clone https://github.com/D3ras/smartpoolers.git
 
+cd smartpoolers
 
 2️⃣ Set up environment variables
 

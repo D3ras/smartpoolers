@@ -30,16 +30,16 @@ A fully functional E-commerce website built using HTML, CSS, JavaScript, and Pyt
 📂 Project Structure
 
 📦 ecommerce-web
-├── 📁 static               # CSS, JavaScript, Images
-│   ├── styles.css         # Main CSS file
-│   ├── scripts.js         # JavaScript functions
-├── 📁 templates            # HTML templates
-│   ├── index.html         # Homepage
-│   ├── product.html       # Product detail page
-│   ├── cart.html          # Shopping cart
-│   ├── checkout.html      # Checkout page
-│   ├── login.html         # User login page
-├── 📁 backend             # Python backend logic
+├── 📁 static               
+│   ├── styles.css         
+│   ├── scripts.js         
+├── 📁 templates            
+│   ├── index.html         
+│   ├── product.html       
+│   ├── cart.html         
+│   ├── checkout.html      
+│   ├── login.html         
+├── 📁 backend        
 │   ├── manage.py          
 │   ├── database.py       
 │   ├── auth.py           

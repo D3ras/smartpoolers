@@ -66,8 +66,7 @@ Git installed
 
 1️⃣ Clone the repository
 
-git clone https://github.com/yourusername/ecommerce-web.git
-cd ecommerce-web
+
 
 2️⃣ Set up environment variables
 

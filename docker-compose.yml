@@ -1,0 +1,50 @@
+version: '3'
+# Defining the compose version
+services:
+
+  # Nginx server
+  nginx:
+    # Build context
+    build:
+      context: ./nginx
+      dockerfile: Dockerfile
+    # Mapping machine and container ports
+    ports:
+      - "80:80"
+    # Storage volumes
+    volumes:
+      - static_volume:/usr/src/app/static:ro
+      - media_volume:/usr/src/app/media:ro
+    # Restart policy
+    depends_on:
+      - web
+    restart: "on-failure"
+
+  web:
+    build:
+      context: ./estore
+      dockerfile: Dockerfile
+    command: sh -c "python manage.py makemigrations && python manage.py migrate && python manage.py collectstatic --noinput && gunicorn estore.wsgi:application --bind 0.0.0.0:8000 && source .DJANGO_SECRET_KEY"
+    volumes:
+      - static_volume:/usr/src/app/static/
+      - static_volume:/usr/src/app/media/
+    env_file:
+      - .env
+    ports:
+      - 8000:8000
+    depends_on:
+      - db
+
+  db:
+    image: postgres:17
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=cooler
+      - POSTGRES_PASSWORD=#Deras001
+      - POSTGRES_DB=sink
+
+volumes:
+  postgres_data:
+  static_volume:
+  media_volume:

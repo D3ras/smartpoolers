@@ -1,0 +1,6 @@
+asgiref
+Django == 5.0.10
+Pillow
+pytz
+sqlparse
+gunicorn 

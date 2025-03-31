@@ -31,19 +31,8 @@ A fully functional E-commerce website built using HTML, CSS, JavaScript, and Pyt
 
 📦 ecommerce-web
 ├── 📁 static               
-│   ├── styles.css         
-│   ├── scripts.js         
-├── 📁 templates            
-│   ├── index.html         
-│   ├── product.html       
-│   ├── cart.html         
-│   ├── checkout.html      
-│   ├── login.html         
-├── 📁 backend        
-│   ├── manage.py          
-│   ├── database.py       
-│   ├── auth.py           
-│   ├── cart.py           
+├── 📁 templates       
+├── 📁 backend                   
 ├── 📁 docker             
 │   ├── Dockerfile       
 │   ├── docker-compose.yml 

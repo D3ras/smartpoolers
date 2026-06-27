@@ -8,15 +8,25 @@ A fully functional E-commerce website built using HTML, CSS, JavaScript, and Pyt
 🚀 Features
 
 ✅ User Authentication – Secure login, signup, and password reset.
+
 ✅ Shopping Cart – Add, update, and remove items.
+
 ✅ Product Management – Display products with categories and filters.
+
 ✅ Related Products – Smart product suggestions.
+
 ✅ Pagination – Load more products dynamically.
+
 ✅ Secure Checkout – MPesa or other payment gateways.
+
 ✅ Order Tracking – View order history and statuses.
+
 ✅ Admin Panel – Manage products, users, and orders.
+
 ✅ SEO Optimized – Fast-loading and mobile-friendly.
+
 ✅ Fully Responsive – Works on all screen sizes.
+
 ✅ Dockerized – Run the app using Docker for easy deployment.
 
 
@@ -103,9 +113,9 @@ SSL Ready for encrypted connections
 
 📦 Deployment
 
-For production, use:
+For production, use"make sure to create docker-compose.prod.yml ":
 
-docker-compose -f docker-compose.prod.yml up --build -d
+docker-compose -f up --build -d
 
 Nginx handles static files and reverse proxy.
 
@@ -148,22 +158,10 @@ Progressive Web App (PWA) for mobile experience.
 5. Open a pull request
 
 
-
-
----
-
 📜 License
 
 This project is licensed under the MIT License.
 
-
----
-
-📧 Contact
-
-Company: 
-
-Website: 
 
 Email: peternjengaderas@gmail.com
 
